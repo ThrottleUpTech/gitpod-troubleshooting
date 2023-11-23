@@ -1,0 +1,4 @@
+tasks:
+  - name: DNS Utils
+    before: sudo apt-get -y install dnsutils
+    command: dig charles.upgradedpoints.tech
