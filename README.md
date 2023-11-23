@@ -1,7 +1,7 @@
 # gitpod-troubleshooting
 Minimal repo to troubleshoot issues with dev environments.
 
-The .gitpod.yml file should install automatically the dnsutils so we just need to run the command: `dig charles.upgradedpoints.tech` and see that sometimes we receive this error. We need to fix this issue. This is not happening for other local environments, only for Gitpod environments.
+The .gitpod.yml file should install automatically the dnsutils so we just need to run the command: `dig charles.upgradedpoints.tech` and see that sometimes we receive this error. We need to fix this issue. This is not happening for other local environments, only for Gitpod environments. Please run the command several times like 10-20 and you should see this problem. I have tried different enviornments of Gitpod and the same keeps happening on old / new workspaces.
 
 # Example of error
 
